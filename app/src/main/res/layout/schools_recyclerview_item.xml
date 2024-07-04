@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/listItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true"
+        app:cardPreventCornerOverlap="true">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/school_title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center_vertical"
+            android:text="School Name" />
+    </androidx.cardview.widget.CardView>
+</layout>
